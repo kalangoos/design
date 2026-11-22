@@ -1,0 +1,36 @@
+{
+  "figcraft": "KalangoOS-DesignSystem.figcraft",
+  "sha256": "473fa6a63ed1a1f2264d0b5a17614553d067735d14371b179b7e8a4314430d02",
+  "bytes": 170773139,
+  "vitrine": [
+    {
+      "dir": "00-Capa",
+      "files": [
+        "Capa.png"
+      ]
+    },
+    {
+      "dir": "01-Fundamentos",
+      "files": [
+        "Fundamentos.png"
+      ]
+    },
+    {
+      "dir": "23-Marca_KalangoOS",
+      "files": [
+        "Marca KalangoOS.png"
+      ]
+    },
+    {
+      "dir": "Site-Landing_page",
+      "files": [
+        "Componentes do site.png",
+        "Site _ Desktop 1440 _ Claro.png",
+        "Site _ Desktop 1440 _ Escuro.png",
+        "Site _ Estados _hover_ foco_ idioma_ tema_.png",
+        "Site _ Móvel 390 _ seções abertas.png"
+      ]
+    }
+  ],
+  "note": "Showcase PNGs only; regenerate with ./scripts/exportar-telas.sh"
+}

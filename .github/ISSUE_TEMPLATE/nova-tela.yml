@@ -1,0 +1,29 @@
+name: Nova tela ou estado
+description: Propor ou pedir uma tela no Design System
+title: "tela: "
+labels: ["design"]
+body:
+  - type: input
+    id: app
+    attributes:
+      label: App ou superfície
+      placeholder: "Arquivos, Configurações, Central de agentes…"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: O que deve aparecer
+      description: Conteúdo, estados (vazio, carregando, erro), tema claro/escuro.
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Página no FigCraft (se souber)
+      placeholder: "05 · Telas do sistema e apps"
+  - type: textarea
+    id: refs
+    attributes:
+      label: Referências
+      description: Issue/PR do monorepo, captura, link do OpenSpec.

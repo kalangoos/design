@@ -1,0 +1,25 @@
+name: Ajuste de token
+description: Cor, raio, espaço ou mola do Design System
+title: "token: "
+labels: ["design", "tokens"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Coleção
+      options: [Cores, Layout, Motion, Outro]
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Mudança proposta
+      description: Nome do token, valor atual, valor novo, por quê.
+    validations:
+      required: true
+  - type: checkboxes
+    id: mono
+    attributes:
+      label: Sync
+      options:
+        - label: Sei que o monorepo (design/tokens/) precisa acompanhar depois do merge

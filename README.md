@@ -4,18 +4,30 @@
 
 # Design System do KalangoOS
 
-O que o [KalangoOS](https://github.com/kalangoos/kalangoos) usa para ter uma só linguagem visual: os tokens de cor,
-movimento e medidas, a marca e os ícones dos apps do sistema. O arquivo-fonte do Design System (FigCraft) não é
-publicado; tudo aqui é exportado dele.
+Fonte visual do [KalangoOS](https://github.com/kalangoos/kalangoos): o arquivo FigCraft, os tokens exportados, a marca e os ícones dos apps. Este repositório é o lugar certo para **contribuir com telas e componentes** sem clonar o monorepo de código.
 
 <p align="center"><img src="guia/marca.png" alt="Página Marca do Design System: logos, símbolo, ícones, cores e regras de uso" width="80%"></p>
 
-| Pasta | O quê |
+| Pasta / arquivo | O quê |
 |---|---|
-| `tokens/` | `tokens-dark.css` e `tokens-light.css` (cores como `@define-color` do GTK, nos temas escuro e claro) e `tokens.json` (as coleções Cores, Layout e Motion: cores, raios, espaços e molas) |
-| `marca/` | Logo principal, símbolo, ícone, versão horizontal, nome, versões de uma cor e do tema claro, em PNG (até 3100 px), `1024/`, `icones/` (32–1024 px) e `svg/`; `conceitos/` guarda as alternativas que não foram escolhidas |
-| `icones/` | Os 19 ícones dos apps do sistema (Arquivos, Agentes, Configurações, Terminal…) em PNG 512, `128/` e `svg/`; `fonte/` tem as imagens originais |
-| `guia/marca.png` | A página "Marca" do Design System: cores, tamanhos e regras de uso |
+| `KalangoOS-DesignSystem.figcraft` | **Fonte** (FigCraft). Versionada com Git LFS — edite aqui. |
+| `exports/vitrine/` | PNGs de páginas-chave para review no GitHub e para o site |
+| `tokens/` | `tokens-dark.css`, `tokens-light.css` (`@define-color` GTK) e `tokens.json` |
+| `marca/` | Logo, símbolo, ícone e variantes (PNG/SVG) |
+| `icones/` | Os 19 ícones dos apps do sistema |
+| `guia/marca.png` | Página "Marca": cores, tamanhos e regras de uso |
+| `scripts/` | Exportar telas e variáveis com `figcraft-cli` |
+
+## Como contribuir
+
+Leia [CONTRIBUTING.md](CONTRIBUTING.md). Resumo:
+
+1. Instale o [FigCraft](https://github.com/storytold/figcraft/releases) e faça `git lfs install` + clone deste repo.
+2. Abra uma issue (tela nova ou ajuste).
+3. Edite o `.figcraft` numa branch (**um autor por PR** no arquivo fonte — merge binário não funciona bem).
+4. Rode `./scripts/exportar-telas.sh` e envie o PR com os PNGs atualizados.
+
+Quem só quer comentar o visual pode abrir o PR e olhar `exports/vitrine/` — não precisa do FigCraft.
 
 ## Regras da marca
 
@@ -28,16 +40,19 @@ publicado; tudo aqui é exportado dele.
 
 Fontes do Design System (não incluídas): Inter (texto), URW Gothic (títulos) e JetBrains Mono (código).
 
+## Sync com o código
+
+O monorepo [`kalangoos/kalangoos`](https://github.com/kalangoos/kalangoos) consome uma cópia em `design/tokens/`.
+Quando este repo mudar tokens, abra (ou peça) um PR lá só com esses arquivos.
+
 ## Licenças
 
-- `tokens/`: **GPL-3.0-or-later** ([LICENSE](LICENSE)), como o código do KalangoOS, que os embute.
-- `marca/`, `icones/` e `guia/`: a **marca do KalangoOS**, fora de licença aberta ([LICENSE-brand.txt](LICENSE-brand.txt)).
+- `tokens/` e o trabalho de UI no `.figcraft` (exceto marca): **GPL-3.0-or-later** ([LICENSE](LICENSE)), como o código do KalangoOS.
+- `marca/`, `icones/`, `guia/` e a página "Marca" no FigCraft: **marca do KalangoOS**, fora de licença aberta ([LICENSE-brand.txt](LICENSE-brand.txt)).
 
 A marca e os ícones foram gerados com IA (Higgsfield, modelo GPT Image) a partir de descrições escritas pelo projeto,
 em novembro de 2026, e vetorizados (`vtracer`). Detalhes em [ATTRIBUTION.md](ATTRIBUTION.md).
 
 ---
 
-**English.** KalangoOS's design tokens (GTK CSS colours for dark and light themes, plus colour, layout and spring
-tokens as JSON; GPL-3.0-or-later), the brand pack and the 19 system app icons (the KalangoOS brand, not under an
-open licence: see LICENSE-brand.txt). The FigCraft source file is not published.
+**English.** Source FigCraft file (Git LFS), exported tokens (GTK CSS + JSON; GPL-3.0-or-later), brand pack and system app icons (brand licence: LICENSE-brand.txt). Contribute screens here — see CONTRIBUTING.md. Figma is not the source of truth; optional mirrors may appear later as one-way exports only.

@@ -1,0 +1,4 @@
+backup-*.figcraft
+_*.png
+_rev/
+tokens/_variables.json
