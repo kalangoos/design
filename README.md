@@ -40,6 +40,10 @@ Quem só quer comentar o visual pode abrir o PR e olhar `exports/vitrine/` — n
 
 Fontes do Design System (não incluídas): Inter (texto), URW Gothic (títulos) e JetBrains Mono (código).
 
+## Espelhos e view-only
+
+Ver [ESPELHOS.md](ESPELHOS.md): arquivo `.fig` unidirecional e como usar share só de visualização.
+
 ## Sync com o código
 
 O monorepo [`kalangoos/kalangoos`](https://github.com/kalangoos/kalangoos) consome uma cópia em `design/tokens/`.

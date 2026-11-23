@@ -47,3 +47,7 @@ Quem só revisa visual: GitHub + os PNGs em `exports/vitrine/` bastam.
 ---
 
 **English.** Edit the `.figcraft` source with FigCraft, one author per PR on that binary, regenerate showcase PNGs with `./scripts/exportar-telas.sh`, and call out token changes so they can sync to `kalangoos/kalangoos` `design/tokens/`.
+
+## Espelhos
+
+Figma / `.fig` e sessões view-only: [ESPELHOS.md](ESPELHOS.md).
