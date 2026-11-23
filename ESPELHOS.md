@@ -24,7 +24,7 @@ O FigCraft (desktop ou build web) permite **Share ▸ Online** com link só de v
 2. Cola o link na issue/PR para critique.
 3. Ao terminar, **Stop sharing**; as mudanças de verdade vão num PR com o `.figcraft` + PNGs.
 
-Não hospedamos ainda um `figcraft-server` permanente da org. Quando existir, o link estável de view será anunciado no README.
+Servidor da org (preview): **Fly.io** — `wss://kalangoos-figcraft.fly.dev/` (health: `https://kalangoos-figcraft.fly.dev/healthz`). Empacotamento em [deploy/fly/](deploy/fly/). Publish só com a **server key** (privada; `fly ssh console … key`). Depois de publicar o `.figcraft`, anunciar aqui o **link/código só de visualização**. A verdade versionada continua no Git LFS.
 
 ## Vitrine PNG
 

@@ -1,0 +1,14 @@
+# Runtime config for Fly.io. public_url must match the app hostname (TLS at the edge → wss).
+listen = "0.0.0.0:47900"
+data = "/data"
+public_url = "wss://kalangoos-figcraft.fly.dev/"
+
+# Private: publish only with the server key (maintainers). View/edit links still work for others.
+open_publish = false
+operator_contact = "https://github.com/kalangoos/design/issues"
+terms_url = "https://github.com/kalangoos/design/blob/main/ESPELHOS.md"
+
+# Design System .figcraft is ~170 MiB; public default (16) would refuse the upload.
+max_file_mb = 256
+max_total_mb = 2048
+idle_days = 30

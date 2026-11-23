@@ -1,0 +1,7 @@
+{
+  "server": "wss://kalangoos-figcraft.fly.dev/",
+  "health": "https://kalangoos-figcraft.fly.dev/healthz",
+  "viewUrl": null,
+  "viewCode": null,
+  "note": "After File ▸ Publish to server… on Fly, set viewUrl (or viewCode) to the view-only share and open a PR. Never commit the server key."
+}
