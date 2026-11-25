@@ -1,7 +1,7 @@
 {
   "figcraft": "KalangoOS-DesignSystem.figcraft",
-  "sha256": "37a32c941acbdadc85e96d3ac9cf10c07f0148ac42eaa39757a1a6cf8d09b2d6",
-  "bytes": 173855585,
+  "sha256": "16bc602c14f391f8da152eccd419b7c34e6e980562eebab963bc2854cee89eb0",
+  "bytes": 175155862,
   "vitrine": [
     {
       "dir": "00-Capa",
@@ -76,8 +76,7 @@
         "Kalango Cast _ Pós-gravação.png",
         "Kalango Cast _ Transmissão (vários destinos) _ claro.png",
         "Kalango Cast _ Transmissão (vários destinos).png",
-        "Kalango Cast _ logo de marketing (aguardando arte do mascote) _ claro.png",
-        "Kalango Cast _ logo de marketing (aguardando arte do mascote).png",
+        "Kalango Cast _ logo de marketing.png",
         "Kalango Cast _ Áudio (mixer completo) _ claro.png",
         "Kalango Cast _ Áudio (mixer completo).png",
         "Kalango Cast _ ícone do app (proposta) _ claro.png",
