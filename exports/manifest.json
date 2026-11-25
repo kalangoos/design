@@ -1,7 +1,7 @@
 {
   "figcraft": "KalangoOS-DesignSystem.figcraft",
-  "sha256": "f33c7d2b4eba3496978907e72d8f2b0bfa24e4f51530a77498468d4229cd7231",
-  "bytes": 175521760,
+  "sha256": "6cb43997f216426869d412b36fe935357fd81049c67d9545687e00fa4e7ea351",
+  "bytes": 175656259,
   "vitrine": [
     {
       "dir": "00-Capa",
@@ -117,10 +117,14 @@
     {
       "dir": "35-Licença_do_modelo_LFM3",
       "files": [
+        "Ajustes _ Modelos _ LFM3 instalado (janela estreita) _ claro.png",
+        "Ajustes _ Modelos _ LFM3 instalado (janela estreita).png",
         "Ajustes _ Modelos _ LFM3 instalado (licença aceita, revogar) _ claro.png",
         "Ajustes _ Modelos _ LFM3 instalado (licença aceita, revogar).png",
         "Ajustes _ Modelos _ baixar LFM3 (aceitar a licença) _ claro.png",
         "Ajustes _ Modelos _ baixar LFM3 (aceitar a licença).png",
+        "Ajustes _ Modelos _ baixar LFM3 (janela estreita) _ claro.png",
+        "Ajustes _ Modelos _ baixar LFM3 (janela estreita).png",
         "Especificação _ Licença do LFM3 _ regras do fluxo _ claro.png",
         "Especificação _ Licença do LFM3 _ regras do fluxo.png",
         "Instalador _ Modelos de IA _ Qwen3 (Apache-2.0, só aviso) _ claro.png",
@@ -157,6 +161,8 @@
     {
       "dir": "37-Gatilho_pela_internet",
       "files": [
+        "Ajustes _ Túneis (janela estreita) _ claro.png",
+        "Ajustes _ Túneis (janela estreita).png",
         "Ajustes _ Túneis (meu domínio e fechar todos) _ claro.png",
         "Ajustes _ Túneis (meu domínio e fechar todos).png",
         "Aprovação _ abrir túnel público _ claro.png",
@@ -169,6 +175,8 @@
         "Gatilho pela internet _ Estados.png",
         "Gatilho pela internet _ depois de fechar tudo _ claro.png",
         "Gatilho pela internet _ depois de fechar tudo.png",
+        "Gatilho pela internet _ detalhe da chamada em folha (janela estreita) _ claro.png",
+        "Gatilho pela internet _ detalhe da chamada em folha (janela estreita).png",
         "Gatilho pela internet _ fechar todos (confirmação) _ claro.png",
         "Gatilho pela internet _ fechar todos (confirmação).png",
         "Gatilho pela internet _ folha completa (chave nova) _ claro.png",
@@ -179,6 +187,8 @@
         "Gatilho pela internet _ inspetor do editor de fluxos.png",
         "Gatilho pela internet _ nível acima e público sem assinatura _ claro.png",
         "Gatilho pela internet _ nível acima e público sem assinatura.png",
+        "Gatilho pela internet _ registro de chamadas (janela estreita) _ claro.png",
+        "Gatilho pela internet _ registro de chamadas (janela estreita).png",
         "Gatilho pela internet _ registro de chamadas _ claro.png",
         "Gatilho pela internet _ registro de chamadas.png"
       ]
