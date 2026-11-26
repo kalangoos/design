@@ -1,7 +1,7 @@
 {
   "figcraft": "KalangoOS-DesignSystem.figcraft",
-  "sha256": "59b503db3fcc91926b3de396a8df913f2fa3e804034697907c62b1d66f7db3bf",
-  "bytes": 194779004,
+  "sha256": "d9228f905e57b0d11b669bf72822fd256f3cb11e019e29f6921d6cbbf5d1249a",
+  "bytes": 194809745,
   "vitrine": [
     {
       "dir": "00-Capa",
@@ -489,6 +489,7 @@
         "Mind _ Explorador _ claro _ largo.png",
         "Mind _ Explorador _ estreito _480 px_.png",
         "Mind _ Explorador _ largo.png",
+        "Mind _ Explorador _ nó com taint _ largo.png",
         "Mind _ Fila _ aprovado na memória _ largo.png",
         "Mind _ Fila _ revisar lição _ claro _ estreito _480 px_.png",
         "Mind _ Fila _ revisar lição _ estreito _480 px_.png",
