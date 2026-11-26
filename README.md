@@ -59,7 +59,10 @@ As telas do Kalango Mind (nome provisório; a memória e o conhecimento dos agen
 | Primeiro uso e integração | Escolher o cofre, importar a Memória atual; Agentes › Memória, chip "por quê?", aviso "Lembrado", ilha de atividade |
 | Estados | Vazio, indexando, motor desligado, erro, modelo ausente |
 | Movimento e fluxos animados | Molas do DS e três fluxos de protótipo: por quê, aprovar na memória, esquecer |
-| Modo claro | Versões em modo claro das telas principais |
+| Princípios de design | A pessoa decide o que vira verdade, o porquê sempre à vista, o que veio de fora marcado, esquecer de verdade, tudo local e embutido, rápido e fluido |
+| Modo claro | Versões em modo claro das telas principais (inclusive contexto, permissões e estados) |
+
+O grafo e as linhas do tempo acompanham o tamanho da janela: cada nó fica num encaixe com a restrição "escala" (o centro escala e o nó mantém o tamanho), as arestas e as faixas escalam, e zoom, legenda e minimapa ficam presos às bordas.
 
 ## Como contribuir
 
