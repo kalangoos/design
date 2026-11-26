@@ -40,6 +40,30 @@ Todas as telas do [Kalango Train](https://github.com/kalangoos/kalango-train) (t
 | Princípios de design | O que o Train não negocia |
 | Modo claro | Versões em modo claro das telas principais |
 
+## Kalango Mind (página 39)
+
+As telas do Kalango Mind (nome provisório; a memória e o conhecimento dos agentes: fatos com fonte, hipóteses e o que a pessoa confirmou, com evidência, confiança, validade no tempo, procedência e taint) ficam numa página só, `39 · Kalango Mind`, no mesmo formato das páginas 38 e 34. Largo (janela de 1640 px na área de trabalho) e estreito (480 px); modo claro no fim. PNGs em `exports/vitrine/39-Kalango_Mind/`. O plano do app é o `docs/PLANO.md` do repositório kalango-knowledge (seção 13, inventário de telas).
+
+| Seção | Conteúdo |
+|---|---|
+| Base e explorador | Explorador do conhecimento (busca, filtros por tipo, estado, fonte, tempo e escopo, resultados, grafo fluido com anéis de estado e marca de taint, inspetor do nó), nó com taint, componentes novos, ícone do app e logo de marketing (provisório) |
+| Detalhe do nó | Estado epistêmico, confiança com a conta, evidências com procedência e data, validade bitemporal, relações, ações (confirmar, corrigir, está errado, esquecer) |
+| Por que você acredita nisso? | O caminho no grafo passo a passo, a evidência de cada aresta e o que pesou na confiança |
+| Fila de revisão e quarentena | Lições e fatos propostos pelo agente, a fonte primeiro, aprovar na memória, editar, manter como hipótese, rejeitar; lote só com filtro e amostra; quarentena com o motivo |
+| Linha do tempo de um fato | Tempo do mundo × tempo do registro, versões, quem mudou e por quê |
+| Cofre do Obsidian | Sincronização: estado da pasta, conflitos com diff (a versão da pessoa fica), cópias de conflito, o que o motor escreveu |
+| Inspetor de contexto | Bloco fixo, bloco da tarefa com citações, pontuações, cortes por orçamento |
+| Permissões por agente | Escopos lidos e propostos, sensibilidades, o que é ferramenta e o que é só da pessoa |
+| Esquecer e exportar | Cascata visível ("apaga também o que derivou"), o que fica fora do alcance, exportar sem taint |
+| Ajustes | Modelos na GPU, indexação que cede à pessoa, orçamento de contexto, armazenamento e retenção |
+| Primeiro uso e integração | Escolher o cofre, importar a Memória atual; Agentes › Memória, chip "por quê?", aviso "Lembrado", ilha de atividade |
+| Estados | Vazio, indexando, motor desligado, erro, modelo ausente |
+| Movimento e fluxos animados | Molas do DS e três fluxos de protótipo: por quê, aprovar na memória, esquecer |
+| Princípios de design | A pessoa decide o que vira verdade, o porquê sempre à vista, o que veio de fora marcado, esquecer de verdade, tudo local e embutido, rápido e fluido |
+| Modo claro | Versões em modo claro das telas principais (inclusive contexto, permissões e estados) |
+
+O grafo e as linhas do tempo acompanham o tamanho da janela: cada nó fica num encaixe com a restrição "escala" (o centro escala e o nó mantém o tamanho), as arestas e as faixas escalam, e zoom, legenda e minimapa ficam presos às bordas.
+
 ## Como contribuir
 
 Leia [CONTRIBUTING.md](CONTRIBUTING.md). Resumo:
