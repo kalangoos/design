@@ -18,6 +18,28 @@ Fonte visual do [KalangoOS](https://github.com/kalangoos/kalangoos): o arquivo F
 | `guia/marca.png` | Página "Marca": cores, tamanhos e regras de uso |
 | `scripts/` | Exportar telas e variáveis com `figcraft-cli` |
 
+## Kalango Train (página 38)
+
+Todas as telas do [Kalango Train](https://github.com/kalangoos/kalango-train) (treino do assistente com os dados da própria pessoa) ficam numa página só, `38 · Kalango Train`, organizada como a do Kalango Cast: cada tela com o título em cima, em seções, na ordem abaixo. Largo (janela de 1640 px na área de trabalho) e estreito (janela de 480 px) lado a lado; as versões em modo claro ficam no fim da página, em "Modo claro". PNGs em `exports/vitrine/38-Kalango_Train/`.
+
+| Seção | Conteúdo |
+|---|---|
+| Base e primeiro uso | Visão geral, primeiro uso, componentes novos, ícone do app e logo de marketing |
+| Consentimento e aprovação | Fila de aprovação (original × limpo), aprovação em lote, consentimento de treino, trilha, regras de coleta, cessão da GPU |
+| Promoção de modelo | Modelos, critérios da promoção, ponto de restauração, modelo de fábrica, comparar A × B |
+| Rastros | Lista, árvore de chamadas e cascata, sessões, gerações, prompts, pontuações |
+| Curadoria | Conjuntos, filtros, duplicatas, divisões, contaminação, versões |
+| Compor trabalho | Compositor único para todos os tipos de trabalho, YAML, recompensas |
+| Execução | Trabalhos e monitor ao vivo (curvas, GPU, VRAM, cede a GPU, retomada) |
+| Avaliações e exportação | Avaliação congelada, suíte de segurança, exportação GGUF |
+| Backends remotos | Local, SLURM, Modal e Kubernetes, com as marcas de "não verificado" |
+| Ajustes e ambiente | Configurações e ambiente Python (não instalado, instalando, falha de hash, sem espaço) |
+| Laboratório e linha do tempo | Pipeline vivo do treino e rio de versões dos modelos |
+| Movimento | Molas por gesto, durações, reduzir movimento |
+| Fluxos animados e microinterações | Quatro fluxos de protótipo (smart animate) e microinterações em laço |
+| Princípios de design | O que o Train não negocia |
+| Modo claro | Versões em modo claro das telas principais |
+
 ## Como contribuir
 
 Leia [CONTRIBUTING.md](CONTRIBUTING.md). Resumo:
