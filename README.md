@@ -18,6 +18,26 @@ Fonte visual do [KalangoOS](https://github.com/kalangoos/kalangoos): o arquivo F
 | `guia/marca.png` | Página "Marca": cores, tamanhos e regras de uso |
 | `scripts/` | Exportar telas e variáveis com `figcraft-cli` |
 
+## Kalango Train (páginas 38 a 50)
+
+Telas do [Kalango Train](https://github.com/kalangoos/kalango-train) (treino do assistente com os dados da própria pessoa). Cada tela existe em largo (1640 px) e estreito (480 px); as principais também em modo claro (`· claro`).
+
+| Página | Conteúdo |
+|---|---|
+| 38 · Train · Base e primeiro uso | Componentes novos, ícone do app, primeiro uso, visão geral |
+| 39 · Train · Consentimento e aprovação | Fila de aprovação (original × limpo), aprovação em lote, consentimento de treino, trilha de consentimentos, regras de coleta, cessão da GPU |
+| 40 · Train · Promoção de modelo | Modelos, critérios da promoção, ponto de restauração, modelo de fábrica, comparar A × B |
+| 41 · Train · Rastros | Lista, árvore de chamadas e cascata, sessões, gerações, prompts, pontuações |
+| 42 · Train · Curadoria | Conjuntos, filtros, duplicatas, divisões, contaminação, versões |
+| 43 · Train · Compor trabalho | Compositor único para todos os tipos de trabalho, YAML, recompensas |
+| 44 · Train · Execução | Trabalhos e monitor ao vivo (curvas, GPU, VRAM, cede a GPU, retomada) |
+| 45 · Train · Avaliações e exportação | Avaliação congelada e suíte de segurança, exportação GGUF |
+| 46 · Train · Backends remotos | Local, SLURM, Modal e Kubernetes, com as marcas de "não verificado" |
+| 47 · Train · Ajustes e ambiente | Configurações e ambiente Python (não instalado, instalando, falha de hash, sem espaço) |
+| 48 · Train · Movimento | Linguagem de movimento: molas por gesto, durações, reduzir movimento |
+| 49 · Train · Fluxos animados | Quatro fluxos de protótipo (smart animate) e microinterações |
+| 50 · Train · Laboratório e linha do tempo | Pipeline vivo do treino e rio de versões dos modelos |
+
 ## Como contribuir
 
 Leia [CONTRIBUTING.md](CONTRIBUTING.md). Resumo:
